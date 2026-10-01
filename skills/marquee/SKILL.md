@@ -3,7 +3,7 @@ name: marquee
 description: >-
   Infinite horizontal ticker via `MarqueeTrack.vue`, with a CSS-animation mode (default,
   best performance) and a GSAP mode, plus configurable speed, direction, gap, and
-  pause-on-hover. Use for logo clouds, quote strips, tag tickers, and announcement bars.
+  pause-on-hover. Use when building logo clouds, quote strips, tag tickers or announcement bars.
 license: Apache-2.0
 compatibility: >-
   Requires a Dezineer-scaffolded Nuxt 4 project (Tailwind v4 design tokens, shared

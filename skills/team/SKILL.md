@@ -3,7 +3,7 @@ name: team
 description: >-
   Team member sections in grid (hover overlay reveals bio and socials) and portrait (large
   alternating image + text rows) layouts, with 3:4 photos and accessible social links. Use
-  for team pages, about sections, and people grids.
+  when building team pages, about sections or people grids.
 license: Apache-2.0
 compatibility: >-
   Requires a Dezineer-scaffolded Nuxt 4 project (Tailwind v4 design tokens, shared

@@ -3,8 +3,8 @@ name: checkout
 description: >-
   Checkout flow with a contact to shipping to mock-payment page and sticky order summary,
   plus an order-confirmation page that clears the cart and shows a mock order number.
-  Design-only, no real payment. Depends on `commerce-core`. Use for checkout and order
-  confirmation screens.
+  Design-only, no real payment. Depends on `commerce-core`. Use when building checkout
+  or order-confirmation screens.
 license: Apache-2.0
 compatibility: >-
   Requires a Dezineer-scaffolded Nuxt 4 project (Tailwind v4 design tokens, shared

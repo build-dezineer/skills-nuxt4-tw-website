@@ -3,7 +3,7 @@ name: contact
 description: >-
   Contact form section in split (info + form) or centered layouts, with name, email,
   company, budget select, and message fields, client-side validation, animated submit, and
-  a success state. Use for contact, inquiry, and get-in-touch pages.
+  a success state. Use when building contact, inquiry or get-in-touch pages.
 license: Apache-2.0
 compatibility: >-
   Requires a Dezineer-scaffolded Nuxt 4 project (Tailwind v4 design tokens, shared

@@ -3,8 +3,8 @@ name: features
 description: >-
   Feature sections in four layouts: icon-card grid (3-4 column), asymmetric bento,
   alternating full-width image + text rows, and a pinned horizontal-scroll track for
-  cinematic intensity. Cards lift on hover and reveal with per-card stagger. Use for
-  product features, services, capabilities, and benefits.
+  cinematic intensity. Cards lift on hover and reveal with per-card stagger. Use when
+  building product features, services, capabilities or benefits.
 license: Apache-2.0
 compatibility: >-
   Requires a Dezineer-scaffolded Nuxt 4 project (Tailwind v4 design tokens, shared

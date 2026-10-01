@@ -3,8 +3,8 @@ name: text-motion
 description: >-
   Text animation composables powered by split-type and GSAP: `useTextReveal()` splits
   headings into words, chars, or lines on scroll, `TextReveal.vue` is a declarative
-  wrapper, and `useCounter()` animates numeric stat values. Use for animated headings,
-  staggered text entrances, and counting numbers, keyed to `animationIntensity`.
+  wrapper, and `useCounter()` animates numeric stat values. Use when building animated
+  headings, staggered text entrances or counting numbers, keyed to `animationIntensity`.
 license: Apache-2.0
 compatibility: >-
   Requires a Dezineer-scaffolded Nuxt 4 project (Tailwind v4 design tokens, shared

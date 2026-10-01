@@ -3,8 +3,8 @@ name: video-bg
 description: >-
   Ambient full-bleed background video component: lazy-loads on intersection, pauses
   off-screen, respects `prefers-reduced-motion` with a poster fallback, cross-fades on
-  `canplay`, and layers slot content with configurable overlay colour and opacity. Use for
-  cinematic section backgrounds.
+  `canplay`, and layers slot content with configurable overlay colour and opacity. Use
+  when a section needs a cinematic background.
 license: Apache-2.0
 compatibility: >-
   Requires a Dezineer-scaffolded Nuxt 4 project (Tailwind v4 design tokens, shared

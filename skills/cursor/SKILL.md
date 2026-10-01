@@ -3,8 +3,8 @@ name: cursor
 description: >-
   Custom cursor overlay for a premium interactive feel: `AppCursor.vue` renders a dot +
   ring follower with GSAP `quickTo`, magnetic hover via `data-magnetic`, cursor label
-  morphing via `data-cursor`, and auto-hide on touch devices. Use for `energetic` or
-  `cinematic` brands that want a signature cursor interaction.
+  morphing via `data-cursor`, and auto-hide on touch devices. Use when an `energetic` or
+  `cinematic` brand wants a signature cursor interaction.
 license: Apache-2.0
 compatibility: >-
   Requires a Dezineer-scaffolded Nuxt 4 project (Tailwind v4 design tokens, shared

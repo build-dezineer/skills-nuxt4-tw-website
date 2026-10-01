@@ -4,8 +4,8 @@ description: >-
   Full navigation skill covering every navLayout x navScroll combination: `NavBar.vue` for
   classic, centered, overlay, minimal-overlay, and bottom layouts with sticky, float,
   reveal, or static scroll behavior. The minimal-overlay variant is the always-burger
-  signature pattern with a GSAP morph and a choreographed `NavFullOverlay`. Use for any
-  site header, mobile drawer, or dropdown menu.
+  signature pattern with a GSAP morph and a choreographed `NavFullOverlay`. Use when
+  building any site header, mobile drawer or dropdown menu.
 license: Apache-2.0
 compatibility: >-
   Requires a Dezineer-scaffolded Nuxt 4 project (Tailwind v4 design tokens, shared

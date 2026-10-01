@@ -3,7 +3,7 @@ name: commerce-core
 description: >-
   Commerce foundation every storefront page depends on: `types/commerce.ts`, a `useCart()`
   persistent localStorage cart singleton, and `useProducts()` loading the mock catalog.
-  Generate this first for any shop. Use whenever a project actually sells products and
+  Generate this first for any shop. Use when a project actually sells products and
   needs cart state or product data.
 license: Apache-2.0
 compatibility: >-

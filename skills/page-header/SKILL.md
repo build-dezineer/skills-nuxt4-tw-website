@@ -3,8 +3,8 @@ name: page-header
 description: >-
   Inner-page header for non-home pages in five variants: minimal, centered, split with an
   oversized index number, image with parallax overlay, and editorial article metadata.
-  Integrates text and scroll reveals and stays shorter than a hero. Use for About,
-  Services, Contact, Case Study, and Article headers.
+  Integrates text and scroll reveals and stays shorter than a hero. Use when building
+  About, Services, Contact, Case Study or Article headers.
 license: Apache-2.0
 compatibility: >-
   Requires a Dezineer-scaffolded Nuxt 4 project (Tailwind v4 design tokens, shared

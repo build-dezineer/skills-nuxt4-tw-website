@@ -3,8 +3,7 @@ name: product-detail
 description: >-
   Product detail page at `app/pages/products/[slug].vue`: image gallery, variant/option
   selection with swatches, quantity, add-to-cart, details accordion, and related products.
-  Depends on `commerce-core` and `cart` and reuses `ProductCard`. Use for any product
-  page.
+  Depends on `commerce-core` and `cart` and reuses `ProductCard`. Use when building any product page.
 license: Apache-2.0
 compatibility: >-
   Requires a Dezineer-scaffolded Nuxt 4 project (Tailwind v4 design tokens, shared

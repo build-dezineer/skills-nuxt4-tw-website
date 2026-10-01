@@ -3,8 +3,8 @@ name: cart
 description: >-
   Cart surface: `useCartDrawer()` plus a Radix Dialog `CartDrawer` mounted once, a
   mini-cart nav badge, and a `/cart` page with line items, quantity steppers, subtotal,
-  empty state, and checkout CTA. Depends on `commerce-core`. Use for cart drawers and the
-  cart page.
+  empty state, and checkout CTA. Depends on `commerce-core`. Use when building cart
+  drawers or a cart page.
 license: Apache-2.0
 compatibility: >-
   Requires a Dezineer-scaffolded Nuxt 4 project (Tailwind v4 design tokens, shared

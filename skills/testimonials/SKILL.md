@@ -3,7 +3,7 @@ name: testimonials
 description: >-
   Social proof sections in three layouts: Swiper slider (cards or coverflow), masonry
   grid, and a featured pull-quote with rotating selector. Includes star ratings and avatar
-  images. Use for customer quotes, reviews, case-study proof, and testimonial walls.
+  images. Use when a page needs customer quotes, reviews, case-study proof or testimonial walls.
 license: Apache-2.0
 compatibility: >-
   Requires a Dezineer-scaffolded Nuxt 4 project (Tailwind v4 design tokens, shared

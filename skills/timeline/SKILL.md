@@ -3,8 +3,8 @@ name: timeline
 description: >-
   Vertical timeline with a GSAP draw-line scrub animation and a horizontal numbered
   process layout. The vertical variant alternates left/right entries with decorative
-  oversized year numbers. Use for process explanations, roadmaps, company history, and
-  milestone sequences.
+  oversized year numbers. Use when building process explanations, roadmaps, company
+  history or milestone sequences.
 license: Apache-2.0
 compatibility: >-
   Requires a Dezineer-scaffolded Nuxt 4 project (Tailwind v4 design tokens, shared

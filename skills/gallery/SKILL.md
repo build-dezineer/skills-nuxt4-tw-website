@@ -3,7 +3,7 @@ name: gallery
 description: >-
   Portfolio and gallery in four layouts: masonry, bento, filtered (GSAP Flip on category
   change), and equal-cell grid, with a Radix fullscreen lightbox supporting keyboard
-  navigation and hover overlays. Use for portfolios, project showcases, and image grids.
+  navigation and hover overlays. Use when building portfolios, project showcases or image grids.
 license: Apache-2.0
 compatibility: >-
   Requires a Dezineer-scaffolded Nuxt 4 project (Tailwind v4 design tokens, shared

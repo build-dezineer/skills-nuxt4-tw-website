@@ -3,7 +3,7 @@ name: faq
 description: >-
   Accessible FAQ accordion built on Radix Accordion with animated height keyframes, a
   plus/minus icon swap, and single- or two-column layouts. Ends with a contact prompt. Use
-  for support pages, pricing questions, and Q&A sections.
+  when building support pages, pricing questions or Q&A sections.
 license: Apache-2.0
 compatibility: >-
   Requires a Dezineer-scaffolded Nuxt 4 project (Tailwind v4 design tokens, shared

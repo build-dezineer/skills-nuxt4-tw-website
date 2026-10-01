@@ -3,7 +3,7 @@ name: cta
 description: >-
   Conversion call-to-action bands in four layouts: full-bleed inverted, split with
   newsletter capture, video background, and minimal text + button. Forms include loading
-  and success states. Use for sign-ups, demo requests, and closing page sections.
+  and success states. Use when building sign-ups, demo requests or closing page sections.
 license: Apache-2.0
 compatibility: >-
   Requires a Dezineer-scaffolded Nuxt 4 project (Tailwind v4 design tokens, shared

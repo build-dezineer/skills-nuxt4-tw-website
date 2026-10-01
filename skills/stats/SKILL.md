@@ -2,8 +2,8 @@
 name: stats
 description: >-
   Animated stat counter sections using `useCounter()` from the text-motion skill, in row,
-  card-grid, and oversized hero layouts that count from zero on scroll enter. Use for
-  metrics bands, results sections, and headline numbers.
+  card-grid, and oversized hero layouts that count from zero on scroll enter. Use when
+  building metrics bands, results sections or headline numbers.
 license: Apache-2.0
 compatibility: >-
   Requires a Dezineer-scaffolded Nuxt 4 project (Tailwind v4 design tokens, shared

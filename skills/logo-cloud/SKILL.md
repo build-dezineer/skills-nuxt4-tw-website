@@ -3,7 +3,7 @@ name: logo-cloud
 description: >-
   Client and partner logo sections in grid, marquee (`MarqueeTrack`), and press layouts.
   Logos render grayscale at half opacity and full colour on hover, all through the media
-  pipeline. Use for trust bars, integration lists, and publication mentions.
+  pipeline. Use when building trust bars, integration lists or publication mentions.
 license: Apache-2.0
 compatibility: >-
   Requires a Dezineer-scaffolded Nuxt 4 project (Tailwind v4 design tokens, shared

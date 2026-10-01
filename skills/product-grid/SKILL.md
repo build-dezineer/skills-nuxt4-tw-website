@@ -3,8 +3,8 @@ name: product-grid
 description: >-
   Shop and collection listing with a filterable, sortable responsive grid and a reusable
   `ProductCard` (image, price, sale/sold-out badges, quick-add), plus loading and empty
-  states. Depends on `commerce-core` and `cart`. Use for collection, category, and
-  shop-all pages.
+  states. Depends on `commerce-core` and `cart`. Use when building collection, category
+  or shop-all pages.
 license: Apache-2.0
 compatibility: >-
   Requires a Dezineer-scaffolded Nuxt 4 project (Tailwind v4 design tokens, shared
