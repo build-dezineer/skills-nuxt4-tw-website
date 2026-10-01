@@ -30,7 +30,7 @@ jobs:
       - name: Index is fresh
         run: npm run index:check
 
-      - uses: astral-sh/setup-uv@v10
+      - uses: astral-sh/setup-uv@v10.2.0
 
       - name: Spec validation (skills-ref)
         run: npm run validate:spec
