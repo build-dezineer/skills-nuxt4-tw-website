@@ -1,0 +1,206 @@
+{
+  "skills": [
+    {
+      "name": "3d-scene",
+      "files": [
+        "SKILL.md",
+        "assets/ThreeScene.vue",
+        "assets/usePostFX.ts"
+      ],
+      "version": "1.0.0"
+    },
+    {
+      "name": "cart",
+      "files": [
+        "SKILL.md"
+      ],
+      "version": "1.0.0"
+    },
+    {
+      "name": "checkout",
+      "files": [
+        "SKILL.md"
+      ],
+      "version": "1.0.0"
+    },
+    {
+      "name": "commerce-core",
+      "files": [
+        "SKILL.md"
+      ],
+      "version": "1.0.0"
+    },
+    {
+      "name": "contact",
+      "files": [
+        "SKILL.md"
+      ],
+      "version": "1.0.0"
+    },
+    {
+      "name": "cta",
+      "files": [
+        "SKILL.md"
+      ],
+      "version": "1.0.0"
+    },
+    {
+      "name": "cursor",
+      "files": [
+        "SKILL.md"
+      ],
+      "version": "1.0.0"
+    },
+    {
+      "name": "faq",
+      "files": [
+        "SKILL.md"
+      ],
+      "version": "1.0.0"
+    },
+    {
+      "name": "features",
+      "files": [
+        "SKILL.md"
+      ],
+      "version": "1.0.0"
+    },
+    {
+      "name": "footer",
+      "files": [
+        "SKILL.md"
+      ],
+      "version": "1.0.0"
+    },
+    {
+      "name": "gallery",
+      "files": [
+        "SKILL.md"
+      ],
+      "version": "1.0.0"
+    },
+    {
+      "name": "hero",
+      "files": [
+        "SKILL.md",
+        "evals/evals.json"
+      ],
+      "version": "1.0.0"
+    },
+    {
+      "name": "logo-cloud",
+      "files": [
+        "SKILL.md"
+      ],
+      "version": "1.0.0"
+    },
+    {
+      "name": "marquee",
+      "files": [
+        "SKILL.md"
+      ],
+      "version": "1.0.0"
+    },
+    {
+      "name": "media",
+      "files": [
+        "SKILL.md"
+      ],
+      "version": "1.0.0"
+    },
+    {
+      "name": "navigation",
+      "files": [
+        "SKILL.md",
+        "evals/evals.json",
+        "references/overlay.md",
+        "references/variants.md"
+      ],
+      "version": "1.0.0"
+    },
+    {
+      "name": "page-header",
+      "files": [
+        "SKILL.md"
+      ],
+      "version": "1.0.0"
+    },
+    {
+      "name": "page-transitions",
+      "files": [
+        "SKILL.md"
+      ],
+      "version": "1.0.0"
+    },
+    {
+      "name": "pricing",
+      "files": [
+        "SKILL.md"
+      ],
+      "version": "1.0.0"
+    },
+    {
+      "name": "product-detail",
+      "files": [
+        "SKILL.md"
+      ],
+      "version": "1.0.0"
+    },
+    {
+      "name": "product-grid",
+      "files": [
+        "SKILL.md"
+      ],
+      "version": "1.0.0"
+    },
+    {
+      "name": "scroll-motion",
+      "files": [
+        "SKILL.md"
+      ],
+      "version": "1.0.0"
+    },
+    {
+      "name": "stats",
+      "files": [
+        "SKILL.md"
+      ],
+      "version": "1.0.0"
+    },
+    {
+      "name": "team",
+      "files": [
+        "SKILL.md"
+      ],
+      "version": "1.0.0"
+    },
+    {
+      "name": "testimonials",
+      "files": [
+        "SKILL.md"
+      ],
+      "version": "1.0.0"
+    },
+    {
+      "name": "text-motion",
+      "files": [
+        "SKILL.md"
+      ],
+      "version": "1.0.0"
+    },
+    {
+      "name": "timeline",
+      "files": [
+        "SKILL.md"
+      ],
+      "version": "1.0.0"
+    },
+    {
+      "name": "video-bg",
+      "files": [
+        "SKILL.md"
+      ],
+      "version": "1.0.0"
+    }
+  ]
+}

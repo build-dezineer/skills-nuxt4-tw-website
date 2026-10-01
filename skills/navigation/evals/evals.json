@@ -1,0 +1,42 @@
+{
+  "skill_name": "navigation",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "Build the site header for a 5-page marketing site — logo, links (Work, Services, About, Contact) and a \"Book a call\" CTA. It should stick to the top, and once you scroll it turns into a floating pill with a blur background.",
+      "expected_output": "app/components/layout/NavBar.vue implementing the classic layout with the float scroll behavior, a mobile drawer, a desktop CTA, and active-link styling via text-primary.",
+      "files": [],
+      "assertions": [
+        "Creates app/components/layout/NavBar.vue",
+        "The float behavior uses inset-x-4 top-3 rounded-2xl once scrolled",
+        "The scroll listener is registered with { passive: true } and cleaned up on unmount",
+        "The desktop CTA is always rendered, in addition to any mobile CTA"
+      ]
+    },
+    {
+      "id": 2,
+      "prompt": "The design brief calls for the minimal-overlay navigation: no inline links at all, the burger visible on every screen size, the current page name in the bar with an index counter, and the full-screen menu opening with the layered animation. Page names are Home, Studio, Work, Journal, Contact.",
+      "expected_output": "NavBar.vue (always-burger bar with logo, current page name, counter, GSAP morph) and NavFullOverlay.vue (layered open sequence) with matching heights and a reduced-motion path.",
+      "files": [],
+      "assertions": [
+        "Creates both app/components/layout/NavBar.vue and app/components/layout/NavFullOverlay.vue",
+        "The burger is visible at all breakpoints (never md:hidden) and no inline links are rendered",
+        "The open animation resets elements hidden by the previous close with gsap.set",
+        "The bar height matches between NavBar.vue and NavFullOverlay.vue",
+        "The prefers-reduced-motion path leaves the overlay fully usable (display flex, items visible)"
+      ]
+    },
+    {
+      "id": 3,
+      "prompt": "We need a transparent header sitting over the hero that gets a solid background after ~40px of scroll. There's also a Resources item that should open a dropdown with Blog, Docs and Changelog.",
+      "expected_output": "A NavBar with a scrolled-state class driven by a passive scroll listener and a Radix DropdownMenu for the Resources item, closing the menu on route change.",
+      "files": [],
+      "assertions": [
+        "Imports the dropdown primitives from radix-vue",
+        "The background change is driven by a scrolled ref toggled around the 40px threshold",
+        "The open menu closes when the route changes",
+        "ThemeToggle/LanguageSwitcher are explicitly imported, not relied on via Nuxt auto-import"
+      ]
+    }
+  ]
+}

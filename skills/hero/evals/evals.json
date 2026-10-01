@@ -1,0 +1,41 @@
+{
+  "skill_name": "hero",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "Our homepage needs a new hero. Fullscreen, looping background video, headline \"Build sites that feel alive\" with one short subline underneath. Dark theme, classic nav, sticky. The video will be supplied by the designer.",
+      "expected_output": "An app/components/sections/HeroSection.vue implementing the fullscreen hero layout with a <video data-media-id> element (no hardcoded src), the headline revealed with useTextReveal, and design-token classes only.",
+      "files": [],
+      "assertions": [
+        "Creates app/components/sections/HeroSection.vue",
+        "The video uses a data-media-id attribute and has no src attribute",
+        "The heading is animated with useTextReveal from the pre-installed text-motion composables",
+        "No hardcoded hex or rgb colors; only Tailwind design-token classes"
+      ]
+    },
+    {
+      "id": 2,
+      "prompt": "Can you build the hero for the landing page? I want the text on the left (headline, paragraph, two buttons) and a product photo on the right. Premium feel — add a subtle parallax to the image when scrolling.",
+      "expected_output": "A split hero: the section wrapper uses grid md:grid-cols-2, text and visual in their own columns, the image emitted through the media pipeline with a modest parallax effect, and no full-bleed absolute background.",
+      "files": [],
+      "assertions": [
+        "Uses a split layout with the grid on the section wrapper, not absolute positioning for the halves",
+        "The product image uses <img data-media-id=\"...\"> and lets the pipeline inject :src",
+        "The visual does not use absolute inset-0 spanning the full hero section",
+        "Includes a CTA button with the shared hover/press interaction classes"
+      ]
+    },
+    {
+      "id": 3,
+      "prompt": "For the agency site I want something dramatic: a 3D particle background behind an oversized typographic headline (energetic intensity). The whole hero should feel like the type is the artwork.",
+      "expected_output": "A typographic hero that delegates the 3D layer to the pre-built ThreeScene.vue with a particles preset, never re-implementing Three.js, with fluid clamp() type sizing.",
+      "files": [],
+      "assertions": [
+        "Imports ThreeScene from ~/components/shared/ThreeScene.vue",
+        "Does not inline Three.js/TresJS code in HeroSection.vue",
+        "The heading size uses clamp() rather than fixed text-{n}xl classes only",
+        "Uses the typographic layout with the 3D visual as a subtle backdrop"
+      ]
+    }
+  ]
+}
