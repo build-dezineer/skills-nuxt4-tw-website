@@ -17,6 +17,7 @@ import {
   listFiles,
   listSkillDirs,
   readSkill,
+  resolveRelativeLink,
 } from './lib/skills.mjs'
 
 const problems = []
@@ -110,7 +111,7 @@ for (const name of names) {
     if (file.endsWith('.md')) {
       const markdown = readFileSync(join(skillDir, file), 'utf8')
       for (const target of findRelativeLinks(markdown)) {
-        if (!existsSync(join(skillDir, target))) {
+        if (!existsSync(resolveRelativeLink(skillDir, file, target))) {
           fail(name, `${file}: relative link does not resolve: ${target}`)
         }
       }

@@ -1,5 +1,5 @@
 import { readFileSync, readdirSync } from 'node:fs'
-import { join, relative, resolve, sep } from 'node:path'
+import { dirname, join, relative, resolve, sep } from 'node:path'
 import { fileURLToPath } from 'node:url'
 import yaml from 'js-yaml'
 
@@ -107,4 +107,8 @@ export function findRelativeLinks(markdown) {
     if (path) targets.add(path)
   }
   return [...targets].sort()
+}
+
+export function resolveRelativeLink(baseDir, file, target) {
+  return join(baseDir, dirname(file), target)
 }

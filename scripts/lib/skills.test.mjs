@@ -1,6 +1,6 @@
 import assert from 'node:assert/strict'
 import { test } from 'node:test'
-import { findRelativeLinks, parseFrontmatter, stripFencedCode } from './skills.mjs'
+import { findRelativeLinks, parseFrontmatter, resolveRelativeLink, stripFencedCode } from './skills.mjs'
 
 test('parseFrontmatter returns data and body', () => {
   const text = '---\nname: hero\ndescription: Builds a hero.\n---\n\n# Hero\n\nBody.\n'
@@ -47,4 +47,19 @@ test('findRelativeLinks ignores links inside fenced code', () => {
 test('stripFencedCode removes fenced blocks only', () => {
   const markdown = 'before\n```js\nconst x = 1\n```\nafter\n~~~\ntilde\n~~~\n'
   assert.equal(stripFencedCode(markdown), 'before\n\nafter\n\n')
+})
+
+test('resolveRelativeLink resolves against the containing file directory', () => {
+  assert.equal(
+    resolveRelativeLink('/repo/skills/navigation', 'SKILL.md', '../media/SKILL.md'),
+    '/repo/skills/media/SKILL.md',
+  )
+  assert.equal(
+    resolveRelativeLink('/repo/skills/navigation', 'references/overlay.md', '../../media/SKILL.md'),
+    '/repo/skills/media/SKILL.md',
+  )
+  assert.equal(
+    resolveRelativeLink('/repo/skills/navigation', 'references/overlay.md', '../assets/nav.svg'),
+    '/repo/skills/navigation/assets/nav.svg',
+  )
 })
