@@ -68,24 +68,27 @@
     {
       "name": "footer",
       "files": [
-        "SKILL.md"
+        "SKILL.md",
+        "checks/validate.mjs"
       ],
-      "version": "1.0.0"
+      "version": "1.1.0"
     },
     {
       "name": "gallery",
       "files": [
-        "SKILL.md"
+        "SKILL.md",
+        "checks/validate.mjs"
       ],
-      "version": "1.0.0"
+      "version": "1.1.0"
     },
     {
       "name": "hero",
       "files": [
         "SKILL.md",
+        "checks/validate.mjs",
         "evals/evals.json"
       ],
-      "version": "1.0.0"
+      "version": "1.1.0"
     },
     {
       "name": "logo-cloud",
@@ -112,11 +115,12 @@
       "name": "navigation",
       "files": [
         "SKILL.md",
+        "checks/validate.mjs",
         "evals/evals.json",
         "references/overlay.md",
         "references/variants.md"
       ],
-      "version": "1.0.0"
+      "version": "1.1.0"
     },
     {
       "name": "page-header",

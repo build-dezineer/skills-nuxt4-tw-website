@@ -116,6 +116,7 @@ project.
 skills/<name>/SKILL.md      # required: frontmatter + instructions
 skills/<name>/references/   # optional: detail loaded only when the skill says to
 skills/<name>/assets/       # optional: static files the skill references
+skills/<name>/checks/       # optional: checks/validate.mjs capability checker
 skills/<name>/evals/        # optional: evals/evals.json test cases
 skills/index.json           # generated catalog (name, files, version)
 scripts/                    # repo tooling (validation, index build)
