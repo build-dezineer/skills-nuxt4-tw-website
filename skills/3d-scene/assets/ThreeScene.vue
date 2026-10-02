@@ -296,7 +296,6 @@ const raf = useRafFn(({ delta }) => {
       const m = meshRef.value; if (!m) break
       m.rotation.y = uniforms.uTime.value * 0.1
       if (props.mouseTrack && elementWidth.value > 0) {
-        const nx = (elementX.value / elementWidth.value - 0.5) * 2
         const ny = (elementY.value / elementHeight.value - 0.5) * 2
         m.rotation.x += (ny * -0.05 - m.rotation.x) * 0.03
       }

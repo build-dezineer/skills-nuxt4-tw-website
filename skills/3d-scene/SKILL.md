@@ -11,7 +11,7 @@ compatibility: >-
   components, media pipeline). Guidance targets Dezineer's generator; patterns may
   transfer to a plain Nuxt project with those primitives.
 metadata:
-  version: "1.0.0"
+  version: "1.0.1"
   tags: "visual, 3d"
   stack: "nuxt4, vue3, tailwind4, tresjs, three, vueuse"
 ---
