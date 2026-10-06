@@ -118,8 +118,8 @@ skills/<name>/references/   # optional: detail loaded only when the skill says t
 skills/<name>/assets/       # optional: static files the skill references
 skills/<name>/checks/       # optional: checks/validate.mjs capability checker
 skills/<name>/evals/        # optional: evals/evals.json test cases
-pack.json                   # pack display metadata (name, description)
-skills/index.json           # generated catalog (pack metadata + name, files, version)
+package.json                # repository identity and install description
+skills/index.json           # generated catalog (description + name, files, version)
 scripts/                    # repo tooling (validation, index build)
 ```
 

@@ -1,6 +1,5 @@
 {
-  "name": "Website skills",
-  "description": "Build guidance for websites — heroes, galleries, navigation, motion, media and more.",
+  "description": "Dezineer website skills — Agent Skills for Nuxt 4 + Tailwind CSS websites",
   "skills": [
     {
       "name": "3d-scene",
