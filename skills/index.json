@@ -1,5 +1,6 @@
 {
   "description": "Dezineer website skills — Agent Skills for Nuxt 4 + Tailwind CSS websites",
+  "appType": "website",
   "skills": [
     {
       "name": "3d-scene",
